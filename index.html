@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andi Rifaldi - Software Engineer</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7fb;
+      color: #1a1a2e;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: #fff;
+      padding: 2.5rem 2.5rem 2rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+    header .title {
+      font-size: 1.1rem;
+      color: #60a5fa;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    .contact-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      font-size: 0.875rem;
+      color: #cbd5e1;
+    }
+    .contact-line a { color: #93c5fd; text-decoration: none; }
+    .contact-line a:hover { color: #fff; }
+    .summary {
+      padding: 1.5rem 2.5rem;
+      border-bottom: 1px solid #e2e8f0;
+      font-size: 0.95rem;
+      color: #475569;
+    }
+    .section {
+      padding: 1.5rem 2.5rem;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .section:last-child { border-bottom: none; }
+    .section-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #60a5fa;
+      margin-bottom: 1rem;
+    }
+    .job { margin-bottom: 1.25rem; }
+    .job:last-child { margin-bottom: 0; }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+      margin-bottom: 0.5rem;
+    }
+    .job-title { font-weight: 600; font-size: 0.95rem; color: #1a1a2e; }
+    .job-company { color: #64748b; font-size: 0.875rem; }
+    .job-period { font-size: 0.8rem; color: #94a3b8; white-space: nowrap; }
+    .job ul {
+      list-style: none;
+      padding: 0;
+    }
+    .job ul li {
+      padding: 0.15rem 0 0.15rem 1.25rem;
+      position: relative;
+      font-size: 0.875rem;
+      color: #475569;
+    }
+    .job ul li::before {
+      content: "▸";
+      position: absolute;
+      left: 0;
+      color: #60a5fa;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.75rem;
+    }
+    .skill-group { }
+    .skill-group-title {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #1a1a2e;
+      margin-bottom: 0.25rem;
+    }
+    .skill-group span {
+      font-size: 0.8rem;
+      color: #64748b;
+    }
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .badge {
+      background: #eff6ff;
+      color: #3b82f6;
+      border: 1px solid #bfdbfe;
+      border-radius: 20px;
+      padding: 0.2rem 0.7rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+    .education-item { margin-bottom: 0.75rem; }
+    .education-item:last-child { margin-bottom: 0; }
+    .edu-title { font-weight: 600; font-size: 0.9rem; }
+    .edu-detail { font-size: 0.8rem; color: #64748b; }
+    @media (max-width: 600px) {
+      header, .summary, .section { padding: 1.5rem 1.25rem; }
+      header h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>Andi Rifaldi</h1>
+  <div class="title">Software Engineer</div>
+  <div class="contact-line">
+    <a href="mailto:andirifaldi31@gmail.com">andirifaldi31@gmail.com</a>
+    <a href="tel:+6289602584857">+62 896 0258 4857</a>
+    <a href="https://linkedin.com/in/andirifaldi/" target="_blank">linkedin.com/in/andirifaldi/</a>
+    <span>📍 Tangerang-Banten, Indonesia</span>
+  </div>
+</header>
+
+<div class="summary">
+  Software Engineer with over 4 years of experience in developing and maintaining web-based applications using PHP and Go. Experienced in RESTful API development, application monitoring, and log analysis. Actively involved in implementing information security practices aligned with ISO 27001, with strong attention to system reliability, security, and continuous improvement.
+</div>
+
+<div class="section">
+  <div class="section-title">Work Experience</div>
+
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <span class="job-title">Software Engineer</span>
+        <span class="job-company">— PT AJS Kitabisa</span>
+      </div>
+      <span class="job-period">Sep 2021 – Jan 2026</span>
+    </div>
+    <ul>
+      <li>Accelerated invoice generation process within internal enterprise applications</li>
+      <li>Performed application maintenance and bug fixing for system stability and optimal performance</li>
+      <li>Acted as technical liaison with external partners for cross-company API integrations</li>
+      <li>Contributed to successful ISO 27001 implementation supporting the Head of Department (2023)</li>
+      <li>Developed and managed RESTful APIs for data integration with partner companies</li>
+      <li>Managed application and server logging for security monitoring, incident analysis, and ISO 27001 compliance</li>
+      <li>Monitored application logs and system behavior to detect anomalies, errors, and security issues</li>
+      <li>Ensured API authentication and authorization (JWT) followed internal security standards</li>
+      <li>Coordinated with infrastructure and internal teams during system and security incidents</li>
+      <li>Assisted in incident investigation via log analysis, API activity, and application error review</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-header">
+      <div>
+        <span class="job-title">IT Support</span>
+        <span class="job-company">— PT. Harsindo Oetama Perkasa</span>
+      </div>
+      <span class="job-period">Feb 2021 – Sep 2021</span>
+    </div>
+    <ul>
+      <li>Monitored and maintained network devices to ensure availability and basic security</li>
+      <li>Identified and troubleshot network and hardware issues impacting system stability</li>
+      <li>Resolved issues related to printers, scanners, and other supporting hardware</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Education</div>
+  <div class="education-item">
+    <div class="edu-title">Bachelor of Computer Science — Universitas Raharja</div>
+    <div class="edu-detail">Sep 2016 – Oct 2020 &nbsp;·&nbsp; IPK: 3.29</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Technical Skills</div>
+  <div class="skills-grid">
+    <div class="skill-group">
+      <div class="skill-group-title">Languages</div>
+      <span>Go, PHP, JavaScript, SQL</span>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Frameworks</div>
+      <span>Laravel, CodeIgniter, jQuery</span>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Databases</div>
+      <span>MySQL, PostgreSQL, Redis</span>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Tools</div>
+      <span>Git, Postman, VS Code, Trae</span>
+    </div>
+    <div class="skill-group">
+      <div class="skill-group-title">Practices</div>
+      <span>RESTful API, JSON, JWT Auth, API Integration, Unit Testing</span>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Security & Operations Knowledge</div>
+  <div class="badge-row">
+    <span class="badge">Log Monitoring & Analysis</span>
+    <span class="badge">Basic Incident Response</span>
+    <span class="badge">ISO 27001</span>
+    <span class="badge">API Security</span>
+    <span class="badge">System Monitoring</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Organizational Experience</div>
+  <div class="education-item">
+    <div class="edu-title">Seminar Committee Member</div>
+    <div class="edu-detail">2016 — Focused on equipment and technical needs</div>
+  </div>
+  <div class="education-item">
+    <div class="edu-title">Student Orientation Committee (PROSPEK), STMIK Raharja</div>
+    <div class="edu-detail">2017 — Designed event agendas for new student orientation</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Awards</div>
+  <div class="education-item">
+    <div class="edu-title">1st Place – Raharja Career Category II</div>
+    <div class="edu-detail">Expert System & Business Intelligence, 2020</div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
